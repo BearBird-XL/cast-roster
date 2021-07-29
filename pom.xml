@@ -9,6 +9,8 @@
         <module>cast-roster-web</module>
         <module>cast-roster-service</module>
         <module>cast-roster-dao</module>
+        <module>cast-roster-test</module>
+        <module>cast-roster-init</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
