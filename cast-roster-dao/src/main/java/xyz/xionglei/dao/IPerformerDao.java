@@ -1,9 +1,8 @@
 package xyz.xionglei.dao;
 
 import org.springframework.data.repository.Repository;
-import xyz.xionglei.entity.Performer;
+import xyz.xionglei.entity.PerformerEntity;
 
-public interface IPerformerDao extends Repository<Performer, Long> {
-
+public interface IPerformerDao extends Repository<PerformerEntity, Long> {
 
 }
