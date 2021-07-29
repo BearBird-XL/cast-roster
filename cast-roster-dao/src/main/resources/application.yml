@@ -1,0 +1,18 @@
+server:
+  port: 9000
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/performer?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password:
+  jpa:
+    database: MySQL
+    database-platform: oorg.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+#      ddl-auto: create 每次运行程序时，都会重新创建表，故而数据丢失
+#      ddl-auto: create-drop 每次运行程序时先创建标结果，然后待程序结束时清空表
+#      ddl-auto: update 每次运行程序时，没有表时会创建表，如果对象发生该表会更新表结果，原有数据不会清空，只会更新。（推荐）
+#      ddl-auto: validate 运行程序时会校验与数据库的字段类型是否相同，字段不同会报错
+#      ddl-auto: none   禁用DDL处理
