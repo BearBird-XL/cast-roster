@@ -11,6 +11,7 @@
         <module>cast-roster-dao</module>
         <module>cast-roster-test</module>
         <module>cast-roster-init</module>
+        <module>cast-roster-worm</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
